@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+</head>
+
+
+
+
+<body>
+    <nav>
+        <div class="left-side">
+            <a href="indexs.html">
+                <img src="foto/logo.png" alt=""></a>
+            <ol>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="">My Project</a>
+                </li>
+            </ol>
+        </div>
+        <div class="right-side">
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </nav>
+
+    <div class="title-form">
+        <h1>GET IN TOUCH</h1>
+    </div>
+
+    <div class="form-contact">
+        <form class="container-form">
+            <div>
+                <label for="name">Name</label>
+                <input id="name" type="text">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id=email type="email">
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input id="phone" type="text" pattern="">
+            </div>
+            <!-- pattern untuk validasi inputtan, misal membatas jumlah hurup
+            dan besar kecil huruf -->
+            <div>
+                <label for="subject">Subject</label>
+                <select id="subject">
+                    <option value="">Fullstack</option>
+                    <option value="">Prontend</option>
+                    <option value="">backend</option>
+                </select>
+            </div>
+            <div>
+                <label for="massage">Your Massage</label>
+                <textarea id="massage" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="submit" submit></label>
+                <button id="submit">submit</button>
+            </div>
+
+        </form>
+
+
+    </div>
+</body>
+
+</html>
